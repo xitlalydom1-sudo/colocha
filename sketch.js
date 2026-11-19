@@ -35,14 +35,13 @@ function draw() {
 
   if (gameOver) {
     fill(255, 0, 0);
-    text("GAME OVER", width / 2, height / 2);
+    text("Try Again lol", width / 2, height / 2);
     return;
   }
 
   circleX += speedX;
   circleY += speedY;
 
-  // bounce off side walls
   if (circleX - radius < 0 || circleX + radius > width) {
     speedX *= -1;
   }
