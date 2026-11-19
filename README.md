@@ -1,3 +1,3 @@
 # colocha
 
-//hi this is my website game but not rly
+hi this is my website game but not rly
