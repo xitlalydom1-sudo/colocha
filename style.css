@@ -5,3 +5,27 @@ html, body {
 canvas {
   display: block;
 }
+
+body {
+  background-image: url("dog.jpg");         
+  background-attachment: fixed;      
+}
+
+.page {
+  width: 700px;
+  max-width: 100%;        
+  margin: 0 auto;       
+  min-height: 100vh;     
+  padding: 20px;
+  background-image: url("fibonacci.jpg");
+  border: 4px dashed hotpink;
+}
+
+.monchichi {
+  position: fixed;
+  right: 10px;
+  bottom: 0px;
+  width: 250px;
+  cursor: pointer;
+}
+

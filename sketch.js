@@ -12,10 +12,6 @@ function setup() {
   textAlign(CENTER, CENTER);
   textSize(32);
   resetBall();
-
-  restartButton = createButton('Restart');
-  restartButton.position(150, 410);
-  restartButton.mousePressed(restartGame);
 }
 
 function resetBall() {
