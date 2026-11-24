@@ -29,5 +29,6 @@ body {
   cursor: pointer;
 }
 
-
-
+* {
+  cursor: url("paw.png"), auto;
+}
